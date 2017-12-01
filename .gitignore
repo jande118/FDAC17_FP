@@ -3,4 +3,5 @@
 *.py
 *.data
 *.tar
+*.tar.gz
 *.csv
