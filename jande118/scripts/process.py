@@ -2,7 +2,8 @@ import sys
 import subprocess
 
 if len(sys.argv) < 2:
-    print('usage: python3 process.py [dependency #1] [dependency #2] ...')
+    print('usage:   python3 process.py [dependency #1] [dependency #2] ...')
+    print('example: python3 process.py CRAN Dub')
     sys.exit()
 
 DATA = '../data/extracted/dependencies.csv'
